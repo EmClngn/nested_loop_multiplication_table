@@ -3,7 +3,8 @@
 # pseudo code
 
 # use nested for loop to make the multiplication table
-for outer in range (1, 10):
-    for inner in range (1 , 10):
-        print(inner, end = "")
+for outer in range (1, 11):
+    for inner in range (1 , 11):
+        inner *= outer
+        print(inner, end = " ")
     print()
